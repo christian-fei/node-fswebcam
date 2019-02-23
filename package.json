@@ -4,7 +4,7 @@
   "description": "node wrapper for fswebcam",
   "main": "index.js",
   "scripts": {
-    "prepublish": "npm test",
+    "prepublish": "npm i; npm test",
     "lint": "standard",
     "test": "npm run lint && node index.test.js; node command-for.test.js"
   },
