@@ -1,6 +1,6 @@
 {
   "name": "@christian_fei/node-fswebcam",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "node wrapper for fswebcam",
   "main": "index.js",
   "scripts": {
