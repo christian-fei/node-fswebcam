@@ -4,9 +4,19 @@
   "description": "node wrapper for fswebcam",
   "main": "index.js",
   "scripts": {
-    "test": "node index.test.js; node command-for.test.js"
+    "prepublish": "npm test",
+    "lint": "standard",
+    "test": "npm run lint && node index.test.js; node command-for.test.js"
   },
-  "keywords": ["fswebcam", "webcam", "ubuntu", "debian"],
+  "keywords": [
+    "fswebcam",
+    "webcam",
+    "ubuntu",
+    "debian"
+  ],
   "author": "christian_fei",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^12.0.1"
+  }
 }
