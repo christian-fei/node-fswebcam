@@ -1,12 +1,12 @@
 {
-  "name": "node-fswebcam",
+  "name": "@christian_fei/node-fswebcam",
   "version": "1.0.0",
-  "description": "",
+  "description": "node wrapper for fswebcam",
   "main": "index.js",
   "scripts": {
     "test": "node index.test.js; node command-for.test.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["fswebcam", "webcam", "ubuntu", "debian"],
+  "author": "christian_fei",
   "license": "ISC"
 }
