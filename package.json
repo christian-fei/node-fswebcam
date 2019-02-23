@@ -15,7 +15,7 @@
     "debian"
   ],
   "author": "christian_fei",
-  "license": "ISC",
+  "license": "ISC ",
   "devDependencies": {
     "standard": "^12.0.1"
   }
