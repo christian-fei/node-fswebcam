@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node index.test.js"
+    "test": "node index.test.js; node command-for.test.js"
   },
   "keywords": [],
   "author": "",
